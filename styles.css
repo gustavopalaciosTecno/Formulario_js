@@ -1,3 +1,6 @@
+body{
+    background-color: rgba(28, 26, 26, 0.2);
+}
 h2{
     color: rgb(26, 8, 91);
     font-size: 2rem;
@@ -21,11 +24,20 @@ input{
     padding: 12px;
     border-radius: 8px;
     width: 60%;
+    color: rgb(27, 33, 209);
+    font-weight: bold;
 }
 
 /* #EnviarResp{
     width: 20%;
 } */
+
+#botonEnviar{
+    width: 22%;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 18px;
+}
 
 .boton1{
     padding: 12px;

@@ -9,7 +9,7 @@ function inciarCuestionario(){
     pre4.disabled = false;
     let pre5 = document.getElementById("pre5");
     pre5.disabled = false;
-    setTimeout(tiempoAgotado, 1000 * 30);
+    setTimeout(tiempoAgotado, 1000 * 300);
 }
 
 
