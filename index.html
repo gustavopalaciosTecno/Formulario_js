@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="app.js" defer></script>
+</head>
+<body>
+    
+    <h2>Cuestionario</h2>
+    <form action="#">
+        <label for="pregunta1">¿Estudias, en caso de afirmación, coloca primaria o secundaria?</label>
+        <input id="pre1" type="text" placeholder="colocar respuesta" disabled>
+        <label for="pregunta2">¿En qué barrio vivís?</label>
+        <input id="pre2" type="text" placeholder="colocar respuesta" disabled> 
+        <label for="pregunta3">¿Cuántos hermanos tenés?</label>
+        <input id="pre3" type="number" placeholder="colocar respuesta" max="30" disabled>
+        <label for="pregunta4">¿Qué tenés pensado estudiar?</label>
+        <input id="pre4" type="text" placeholder="colocar respuesta" disabled>
+        <label for="pregunta5">¿Cuál es tu mejor amigo?</label>
+        <input id="pre5" type="text" placeholder="colocar respuesta" disabled>
+        <!-- <input type="submit"  value="Enviar Respuestas" id="enviarRespuestas"> -->
+        <button class="EnviarResp" onclick="enviarRespuestas();" style="width: 20% !important; font-weight: bold;padding: 12px;">Enviar respuestas</button>
+    </form>
+    
+    <button class="boton1" onclick="inciarCuestionario()">Click aquí para iniciar Cuestionario</button>
+
+    <button class="boton2" onclick="resetearCuestionario()">Reiniciar</button>
+
+
+</body>
+</html>

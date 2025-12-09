@@ -1,0 +1,46 @@
+h2{
+    color: rgb(26, 8, 91);
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25px;
+}
+
+label{
+    color: brown;
+    font-weight: bold;
+}
+
+input{
+    padding: 12px;
+    border-radius: 8px;
+    width: 60%;
+}
+
+/* #EnviarResp{
+    width: 20%;
+} */
+
+.boton1{
+    padding: 12px;
+    background-color: rgb(50,150,25);
+    color: white;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.boton2{
+    padding: 12px;
+    background-color: rgb(213, 63, 17);
+    color: white;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
