@@ -97,7 +97,10 @@ input:hover{
         font-size: 14px;
     }
     
-    input, button {
-        font-size: 16px; /* Previene zoom automático en iOS */
+    input{
+        font-size: 18px; /* Previene zoom automático en iOS */
+    }
+    button{
+        font-size: 14px;
     }
 }
