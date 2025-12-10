@@ -1,11 +1,19 @@
 body{
     background-color: rgba(28, 26, 26, 0.2);
-   
+    background-image: url(img/rana.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 h2{
     color: rgb(26, 8, 91);
     font-size: 2rem;
     text-decoration: underline;
+}
+
+span{
+    font-size: 2rem;
+    color: red;
 }
 
 form{
@@ -17,8 +25,9 @@ form{
 }
 
 label{
-    color: brown;
+    color: rgb(238, 8, 8);
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 input{
@@ -26,7 +35,15 @@ input{
     border-radius: 8px;
     width: 60%;
     color: rgb(14, 20, 204);
+    box-shadow: 0 15px 12px 8px rgba(28, 26, 26, 0.5);
     font-weight: bold;
+    text-transform: uppercase;
+    transition: all 300ms ease-in-out;
+}
+
+input:hover{
+    padding: 15px;
+    box-shadow: 0 15px 12px 8px rgba(197, 19, 19, 0.5);
 }
 
 /* #EnviarResp{
