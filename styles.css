@@ -83,7 +83,7 @@ input:hover{
     border-radius: 18px;
 }
 
-.boton1{
+.boton-iniciar{
     padding: 12px;
     background-color: rgb(50,150,25);
     color: white;
@@ -92,7 +92,7 @@ input:hover{
     font-family: cursive;
 }
 
-.boton2{
+.boton-enviar{
     padding: 12px;
     background-color: rgb(213, 63, 17);
     color: white;

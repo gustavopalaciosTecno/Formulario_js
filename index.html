@@ -7,10 +7,14 @@
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="app.js" defer></script>
 </head>
-<body onload="comenzarReloj()">
+<body>
     <h1 id="textoAlarma">03:00</h1>
     <h4>Tenés <span>3</span> minutos para contestar las preguntas</h4>
     <h2>Evaluación -  preguntas fáciles</h2>
+    <div class="controles">
+            <button id="btnIniciar" class="boton boton-iniciar">Iniciar Cuestionario</button>
+            <button id="btnEnviar" class="boton boton-enviar">Enviar Respuestas</button>
+    </div>
     <form action="#">
         <label for="pregunta1">¿Cuáles son las dos tipos de células que existen?</label>
         <input id="pre1" type="text" placeholder="colocar respuesta" disabled>
@@ -27,15 +31,16 @@
         <label for="pregunta7">¿Qué características presenta un invertebrado?</label>
         <input id="pre7" type="text" placeholder="colocar respuesta" disabled>
         <!-- <input type="submit"  value="Enviar Respuestas" id="enviarRespuestas"> -->
-        <button class="EnviarResp" onclick="enviarRespuestas();" id="botonEnviar">Enviar respuestas</button>
+        <!-- <button class="EnviarResp" onclick="enviarRespuestas();" id="botonEnviar">Enviar respuestas</button> -->
     </form>
     
-    <button class="boton1" onclick="inciarCuestionario()">Click aquí para iniciar Cuestionario</button>
+    <!-- <button class="boton1" onclick="inciarCuestionario()">Click aquí para iniciar Cuestionario</button> -->
 
-    <button class="boton2" onclick="resetearCuestionario()">Reiniciar</button>
-
+    <!-- <button class="boton2" onclick="resetearCuestionario()">Reiniciar</button>
     <script>
-
-    </script>
+        function resetearCuestionario(){
+            location.reload();
+        }
+    </script> -->
 </body>
 </html>
