@@ -9,7 +9,11 @@ function inciarCuestionario(){
     pre4.disabled = false;
     let pre5 = document.getElementById("pre5");
     pre5.disabled = false;
-    setTimeout(tiempoAgotado, 1000 * 300);
+    let pre6 = document.getElementById("pre6");
+    pre6.disabled = false;
+    let pre7 = document.getElementById("pre7");
+    pre7.disabled = false;
+    setTimeout(tiempoAgotado, 1000 * 180);
 }
 
 
@@ -19,6 +23,8 @@ function tiempoAgotado(){
     pre3.disabled = true;
     pre4.disabled = true;
     pre5.disabled = true;
+    pre6.disabled = true;
+    pre7.disabled = true;
     alert("GAME OVER");
     
 }
